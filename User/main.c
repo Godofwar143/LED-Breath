@@ -20,10 +20,11 @@ int main(void)
 			PWM_SetCompare1(i);
 			Delay_ms(5);
 		}
+		//LED灯变化减慢
 		for(i = 100;i > 0;i--)
 		{
 			PWM_SetCompare1(i);
-			Delay_ms(10);
+			Delay_ms(50);
 		}
 	}
 }
