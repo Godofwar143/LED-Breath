@@ -14,11 +14,11 @@ int main(void)
 
 	while(1)
 	{
-	
-		for(i = 0;i <= 100;i++)
+	    //LED灯变化更快
+		for(i = 0;i <= 1000;i++)
 		{
 			PWM_SetCompare1(i);
-			Delay_ms(10);
+			Delay_ms(5);
 		}
 		for(i = 100;i > 0;i--)
 		{

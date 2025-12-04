@@ -3,13 +3,13 @@
         {
             "name": "Target 1",
             "includePath": [
-                "f:\\practice_two\\5-3LED呼吸灯\\Start",
-                "f:\\practice_two\\5-3LED呼吸灯\\Library",
-                "f:\\practice_two\\5-3LED呼吸灯\\User",
-                "f:\\practice_two\\5-3LED呼吸灯\\System",
-                "f:\\practice_two\\5-3LED呼吸灯\\Hardware",
-                "D:\\Keil_v5\\ARM\\ARMCC\\include",
-                "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
+                "d:\\STM32\\SYM32project\\LED-Breath\\Start",
+                "d:\\STM32\\SYM32project\\LED-Breath\\Library",
+                "d:\\STM32\\SYM32project\\LED-Breath\\User",
+                "d:\\STM32\\SYM32project\\LED-Breath\\System",
+                "d:\\STM32\\SYM32project\\LED-Breath\\Hardware",
+                "D:\\STM32\\MDK-ARM\\ARM\\ARMCC\\include",
+                "D:\\STM32\\MDK-ARM\\ARM\\ARMCC\\include\\rw"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
